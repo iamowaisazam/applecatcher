@@ -1,5 +1,5 @@
 export default {
-    url:"/applecatcher/docs/assets/",
+    url:"/applecatcher/assets/",
     sizes : {
         width: 500,
         height: 500,
