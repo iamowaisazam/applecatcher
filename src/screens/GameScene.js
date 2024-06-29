@@ -25,10 +25,10 @@ class GameScene extends Phaser.Scene {
     }
   
     preload() {
-      this.load.image("bg","/assets/bg.png");
-      this.load.image("basket","/assets/basket.png");
-      this.load.image("apple","/assets/apple.png");
-      this.load.image("money", "/assets/money.png"); // Load money particle image
+      this.load.image("bg",config.url+"bg.png");
+      this.load.image("basket",config.url+"basket.png");
+      this.load.image("apple",config.url+"apple.png");
+      this.load.image("money",config.url+"money.png"); // Load money particle image
   
     }
   
